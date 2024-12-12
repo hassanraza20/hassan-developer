@@ -1,0 +1,600 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(mainphoto5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.logo {
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+    left: 120px;
+    font-size: xx-large;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: white;
+}
+
+.bar {
+    text-decoration: none;
+    position: relative;
+    left: 340px;
+    top: 40px;
+    padding: 20px;
+    font-size: large;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: white;
+}
+
+.bar:hover {
+    color: rgb(149, 189, 196);
+}
+
+.header {
+    position: absolute;
+    left: 120px;
+    top: 260px;
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+.work {
+    position: absolute;
+    left: 120px;
+    top: 390px;
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.menu {
+    position: absolute;
+    border: none;
+    width: 1140px;
+    height: 300px;
+    top: 640px;
+    left: 100PX;
+    background-color: white;
+    border: none;
+    box-shadow:
+        0 0 5px rgb(255, 255, 255),
+        0 0 5px rgb(255, 255, 255),
+        0 0 5px rgb(255, 255, 255),
+        0 0 7px rgb(44, 43, 43);
+}
+
+/*  gradicon Certificate */
+#gradicon {
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    color: rgb(87, 145, 87);
+}
+
+.cer {
+    position: absolute;
+    left: 50px;
+    top: 115px;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.boxwork {
+    position: absolute;
+    left: 50px;
+    top: 160px;
+    font-size: 12px;
+    color: rgb(46, 42, 42);
+    font-family: sans-serif;
+    line-height: 19px;
+}
+
+/* User Experties */
+#user {
+    position: absolute;
+    left: 420px;
+    top: 60px;
+    color: rgb(87, 145, 87);
+}
+
+.exp {
+    position: absolute;
+    left: 420px;
+    top: 115px;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.boxtext {
+    position: absolute;
+    left: 420px;
+    top: 160px;
+    font-size: 12px;
+    color: rgb(46, 42, 42);
+    font-family: sans-serif;
+    line-height: 19px;
+}
+
+/* Rocket Learn from anywhere  */
+#rocket {
+    position: absolute;
+    left: 820px;
+    top: 60px;
+    color: rgb(87, 145, 87);
+}
+
+.learn {
+    position: absolute;
+    left: 810px;
+    top: 115px;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.textrocket {
+    position: absolute;
+    left: 810px;
+    top: 160px;
+    font-size: 12px;
+    color: rgb(46, 42, 42);
+    font-family: sans-serif;
+    line-height: 19px;
+}
+
+/* Educrown is trusted by 50,000+ student. */
+.edu {
+    position: absolute;
+    left: 390px;
+    top: 1040px;
+    color: rgb(54, 49, 49);
+    font-family: sans-serif;
+    font-size: 32px;
+}
+
+.edupara {
+    position: absolute;
+    left: 390px;
+    top: 1090px;
+    color: rgb(58, 58, 58);
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    text-indent: -83px;
+    line-height: 27px;
+}
+
+#Attachment {
+    position: absolute;
+    top: 1250px;
+    width: 100%;
+    height: 330px;
+    border: none;
+    background-image: url(main99.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*  Attachment Area */
+.actk {
+    position: absolute;
+    top: 33%;
+    left: 130px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 73px;
+}
+
+.actgra {
+    position: absolute;
+    top: 66%;
+    left: 120px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/*124  */
+.act123 {
+    position: absolute;
+    top: 33%;
+    left: 440px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 73px;
+}
+
+.actexp {
+    position: absolute;
+    top: 66%;
+    left: 440px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/* 600k */
+.act600k {
+    position: absolute;
+    top: 33%;
+    left: 744px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 73px;
+}
+
+.acttech {
+    position: absolute;
+    top: 66%;
+    left: 755px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/* 150k */
+.act150k {
+    position: absolute;
+    top: 33%;
+    left: 1090px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 73px;
+}
+
+.actstud {
+    position: absolute;
+    top: 66%;
+    left: 1080px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/* Our Trending Courses */
+#portionTrendingCourses {
+    position: absolute;
+    top: 400px;
+    left: 35%;
+    font-family: sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: rgb(51, 47, 47);
+}
+    /*  Education is the foundation upon which we build our future. */
+ .uponwhichwe{
+    position: absolute;
+    top: 550px;
+    left: 100px;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(51, 47, 47);
+ }   
+ .AGoogleDocsscam{
+    position: absolute;
+    top: 645px;
+    left: 100px;
+    font-family: sans-serif;
+    font-size: 16px;
+    /* font-weight: 700; */
+    color: rgb(51, 47, 47);
+    line-height: 22px;
+ }
+ #videoiframe{
+    position: absolute;
+    top: 500px;
+    left: 690px;
+ }
+
+ /*   From Our Blog*/
+ .headindFrOurBlog{
+    position: absolute;
+    top: 1000px;
+    left: 530px;
+    font-family: sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+ }
+ /*  */
+
+ #formblogbox1{
+    position: absolute;
+    top: 1150px;
+    left: 900px;
+    width: 380px ;
+    height: 390px;
+    padding: 20px;
+    border-radius: 5px;
+    background-image: url(main44\ \(1\).jpg);
+     background-size: contain;
+     background-repeat: no-repeat;           
+     background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow:
+        0 0 10px rgb(255, 255, 255),
+        0 0 10px rgb(255, 255, 255),
+        0 0 10px rgb(255, 255, 255),
+        0 0 10px rgb(44, 43, 43);
+}
+#formblogbox2{
+    position: absolute;
+    top: 1150px;
+    left: 490px;
+    width: 380px ;
+    height: 390px;
+    padding: 20px;
+    border-radius: 5px;
+    background-image: url(main55\ \(2\).jpg);
+     background-size: contain;
+     background-repeat: no-repeat;           
+     background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow:
+        0 0 10px rgb(255, 255, 255),
+        0 0 10px rgb(255, 255, 255),
+        0 0 10px rgb(255, 255, 255),
+        0 0 10px rgb(44, 43, 43);
+ }
+ #formblogbox3{
+     position: absolute;
+     top: 1150px;
+     left: 80px;
+     width: 380px ;
+     height: 390px;
+     padding: 20px;
+     border-radius: 5px;
+     background-image: url(main66.jpg);
+     background-size: contain;
+     background-repeat: no-repeat;           
+     background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow:
+        0 0 10px rgb(255, 255, 255),
+        0 0 10px rgb(255, 255, 255),
+        0 0 10px rgb(255, 255, 255),
+        0 0 10px rgb(44, 43, 43);
+ }
+
+ .Blazeonbox{
+    position: absolute;
+    top: 255px;
+    left: 9px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+#zeonbo,#Feb01cas,#tonisdis{
+    text-decoration: none;
+    color:black ;
+}
+#zeonbo:hover{
+    color: rgb(149, 189, 196);
+}
+.Feb01cas{
+    position: absolute;
+    top: 330px;
+    left: 9px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 15px; 
+}
+#Feb01cas:hover{
+    color: rgb(149, 189, 196);
+}
+#tonisdis:hover{
+    color: rgb(149, 189, 196);
+}
+.tonismarkw{
+    position: absolute;
+    top: 330px;
+    left: 160px;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+#formblogbox3 ,#formblogbox2 ,#formblogbox1{
+    background-color: rgb(230, 226, 226);
+}
+/* map and conatct heading */
+.mapandconatctheading{
+    position: absolute;
+    top: 1700px;
+    left: 570px;
+    font-family: sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+ #mapsettinggoogle{
+    position: absolute;
+    top: 1800px;
+}
+.Contactformquestion344{
+    position: absolute;
+    top: 1850px;
+    left: 640px;
+    /* padding: 0px; */
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    line-height: 43px;
+
+}
+.inputtext234{
+    position: absolute;
+    top: 1980px;
+    left: 640px;
+    width: 240px;
+    height: 50px;
+    padding: 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.inputemail889{
+    position: absolute;
+    top: 1980px;
+    left: 920px;
+    width: 240px;
+    height: 50px;
+    padding: 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.inputmessage445{
+    position: absolute;
+    top: 2080px;
+    left: 640px;
+    width: 525px;
+    height: 140px;
+    padding: 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.inputsubmitbutton3{
+    position: absolute;
+    top: 2260px;
+    left: 640px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(74, 214, 214);
+    width: 180px;
+    height: 60px;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.inputsubmitbutton3:hover{
+    background-color: rgb(61, 61, 61);
+}
+#foter12{
+    position: absolute;
+    top: 2460px;
+    background-color: rgb(48, 47, 47);
+    width: 100%;
+    height: 400px;
+} 
+.foterheadinglogo{
+   font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:100px ;
+    left:110px ;
+}
+.foterparasaudi22{
+font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:169px ;
+    left:110px ;
+    line-height: 24px;
+}
+.tablefoterservices{
+position: absolute;
+top: 97px;
+left: 659px;
+height: 260px;
+font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.colorfoter111:hover{
+color:  rgb(149, 189, 196);
+}
+.colorfoter222:hover{
+color:  rgb(149, 189, 196);
+}
+.colorfoter333:hover{
+color:  rgb(149, 189, 196);
+}
+.colorfoter444:hover{
+color:  rgb(149, 189, 196);
+}
+.colorfoter555:hover{
+color:  rgb(149, 189, 196);
+}
+.colorfoter666:hover{
+color:  rgb(149, 189, 196);
+}
+.Subscribefoter889{
+font-family: sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:100px ;
+    left:840px ;
+    line-height: 24px;
+}
+.Doubtfulforparah37{
+font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top:169px ;
+    left:840px ;
+    line-height: 24px;
+}
+.inputhasubmit87{
+position: absolute;
+top: 260px;
+left: 840px;
+border: none;
+border-radius: 50px;
+width: 460px;
+height: 60px;
+padding: 26px;
+font-size: 17px;
+}
+#copcooumfoter56{
+background-color: black;
+width: 100%;
+height: 100px;
+position: absolute;
+top: 400px;
+}
+.copyrightcoloumfoterparah{
+font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 530;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 40px ;
+    left: 380px ;
+    line-height: 24px;
+}
+#paperplane6476{
+    position: absolute;
+    top: 290px;
+    left: 1230px;
+   
+
+}
+/* #paperplane6476:hover{
+ 
+} */
+
